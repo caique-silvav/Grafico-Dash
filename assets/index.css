@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #212529;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.app-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.country-dropdown {
+    width: 100% !important;
+    max-width: 550px !important;
+    font-size: 1.1rem;
+    padding: 8px !important;
+    border-radius: 12px !important;
+    border: 1px solid #ced4da !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+}
+
+.country-dropdown:hover,
+.country-dropdown:focus {
+    border-color: #3b82f6 !important;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2) !important;
+}
+
+.dash-graph {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dash-graph:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: auto;
+    padding-top: 20px;
+}
