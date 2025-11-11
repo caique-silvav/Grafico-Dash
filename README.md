@@ -1,8 +1,7 @@
 # 📊 Visualização Interativa da População Mundial com Dash
 
-Um dashboard interativo feito em **Python** usando **Dash** e **Plotly** para explorar a evolução da população de países ao longo do tempo, com base no famoso dataset [Gapminder](https://www.gapminder.org/).
+Um dashboard interativo feito em **Python** usando **Dash** e **Plotly** para explorar a evolução da população de países ao longo do tempo, com base no famoso dataset [Gapminder]
 
-![Dashboard preview](https://via.placeholder.com/800x400?text=Preview+do+Dashboard) <!-- opcional: substitua por um print real depois -->
 
 ## 🌟 Recursos
 
